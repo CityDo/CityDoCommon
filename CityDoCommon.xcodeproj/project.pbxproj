@@ -37,6 +37,7 @@
 		6E9946FB5D5E2FA8145D9FD4 /* libPods-CityDoCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DAC2959B47E10EFF3FE95A /* libPods-CityDoCommon.a */; };
 		F538ED0324751C3D00FD3BF3 /* NSDictionary+CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED0224751C3D00FD3BF3 /* NSDictionary+CityDoCommon.m */; };
 		F538ED0624751E4100FD3BF3 /* UIView+CityDoCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED0524751E4100FD3BF3 /* UIView+CityDoCorners.m */; };
+		F538ED0A247520FA00FD3BF3 /* UIViewController+CityDoImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED09247520FA00FD3BF3 /* UIViewController+CityDoImagePicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,8 @@
 		F538ED0224751C3D00FD3BF3 /* NSDictionary+CityDoCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CityDoCommon.m"; sourceTree = "<group>"; };
 		F538ED0424751E4100FD3BF3 /* UIView+CityDoCorners.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CityDoCorners.h"; sourceTree = "<group>"; };
 		F538ED0524751E4100FD3BF3 /* UIView+CityDoCorners.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CityDoCorners.m"; sourceTree = "<group>"; };
+		F538ED08247520FA00FD3BF3 /* UIViewController+CityDoImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CityDoImagePicker.h"; sourceTree = "<group>"; };
+		F538ED09247520FA00FD3BF3 /* UIViewController+CityDoImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CityDoImagePicker.m"; sourceTree = "<group>"; };
 		FF4DE97275A1C2489812EF79 /* Pods-CityDoCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityDoCommon.release.xcconfig"; path = "Target Support Files/Pods-CityDoCommon/Pods-CityDoCommon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -241,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				0718B292247376D400A2FEF9 /* CitydoCategory.h */,
+				F538ED07247520D000FD3BF3 /* UIViewController */,
 				F538ED0024751BF700FD3BF3 /* NSDictionary */,
 				0718B2A12473AEEB00A2FEF9 /* Image */,
 				0718B2802472796E00A2FEF9 /* View */,
@@ -345,6 +349,15 @@
 				F538ED0224751C3D00FD3BF3 /* NSDictionary+CityDoCommon.m */,
 			);
 			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		F538ED07247520D000FD3BF3 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F538ED08247520FA00FD3BF3 /* UIViewController+CityDoImagePicker.h */,
+				F538ED09247520FA00FD3BF3 /* UIViewController+CityDoImagePicker.m */,
+			);
+			path = UIViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -506,6 +519,7 @@
 				0718B27F24726DF800A2FEF9 /* UIColor+CityDoCommon.m in Sources */,
 				0718B28324727A3100A2FEF9 /* UIView+CityDoCommon.m in Sources */,
 				0718B29724737B6500A2FEF9 /* CityDoCommon.m in Sources */,
+				F538ED0A247520FA00FD3BF3 /* UIViewController+CityDoImagePicker.m in Sources */,
 				0718B28E24728DEB00A2FEF9 /* CityDoNotiHelper.m in Sources */,
 				0718B236246E868E00A2FEF9 /* ViewController.m in Sources */,
 				0718B230246E868E00A2FEF9 /* AppDelegate.m in Sources */,

@@ -26,4 +26,6 @@
 
 #import "NSDictionary+CityDoCommon.h"
 
+#import "UIViewController+CityDoImagePicker.h"
+
 #endif /* CitydoCategory_h */
