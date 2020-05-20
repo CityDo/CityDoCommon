@@ -34,6 +34,11 @@
     [button useBezierPathClipCornerWithType:CDCornerRadiusTypeTopLeftToBottomRight WithCornerRadius:10];
     [self.view addSubview:button];
     
+    NSLog(@"%F",[CityDoAppTool calculateCacheSize]);
+    [CityDoAppTool clearAllCacheEndClearBlock:^(BOOL isSuccess) {
+        NSLog(@"%d",isSuccess);
+        NSLog(@"%f",[CityDoAppTool calculateCacheSize]);
+    }];
     // Do any additional setup after loading the view.
 }
 

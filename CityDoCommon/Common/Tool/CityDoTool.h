@@ -13,5 +13,6 @@
 #import "CityDoDateFormatTool.h"
 #import "CityDoCommonTool.h"
 #import "CityDoFileTool.h"
+#import "CityDoAppTool.h"
 
 #endif /* CityDoTool_h */

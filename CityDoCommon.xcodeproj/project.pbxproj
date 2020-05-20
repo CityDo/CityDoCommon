@@ -38,6 +38,7 @@
 		F538ED0324751C3D00FD3BF3 /* NSDictionary+CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED0224751C3D00FD3BF3 /* NSDictionary+CityDoCommon.m */; };
 		F538ED0624751E4100FD3BF3 /* UIView+CityDoCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED0524751E4100FD3BF3 /* UIView+CityDoCorners.m */; };
 		F538ED0A247520FA00FD3BF3 /* UIViewController+CityDoImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED09247520FA00FD3BF3 /* UIViewController+CityDoImagePicker.m */; };
+		F538ED0D2475250200FD3BF3 /* CityDoAppTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED0C2475250200FD3BF3 /* CityDoAppTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +124,8 @@
 		F538ED0524751E4100FD3BF3 /* UIView+CityDoCorners.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CityDoCorners.m"; sourceTree = "<group>"; };
 		F538ED08247520FA00FD3BF3 /* UIViewController+CityDoImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CityDoImagePicker.h"; sourceTree = "<group>"; };
 		F538ED09247520FA00FD3BF3 /* UIViewController+CityDoImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CityDoImagePicker.m"; sourceTree = "<group>"; };
+		F538ED0B2475250200FD3BF3 /* CityDoAppTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityDoAppTool.h; sourceTree = "<group>"; };
+		F538ED0C2475250200FD3BF3 /* CityDoAppTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityDoAppTool.m; sourceTree = "<group>"; };
 		FF4DE97275A1C2489812EF79 /* Pods-CityDoCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityDoCommon.release.xcconfig"; path = "Target Support Files/Pods-CityDoCommon/Pods-CityDoCommon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -234,6 +237,8 @@
 				0718B26B246E927300A2FEF9 /* CityDoDateFormatTool.m */,
 				0718B26D2472215C00A2FEF9 /* CityDoCommonTool.h */,
 				0718B26E2472215C00A2FEF9 /* CityDoCommonTool.m */,
+				F538ED0B2475250200FD3BF3 /* CityDoAppTool.h */,
+				F538ED0C2475250200FD3BF3 /* CityDoAppTool.m */,
 				0718B29E2473A71200A2FEF9 /* CityDoFileTool.h */,
 				0718B29F2473A71200A2FEF9 /* CityDoFileTool.m */,
 			);
@@ -517,6 +522,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0718B27F24726DF800A2FEF9 /* UIColor+CityDoCommon.m in Sources */,
+				F538ED0D2475250200FD3BF3 /* CityDoAppTool.m in Sources */,
 				0718B28324727A3100A2FEF9 /* UIView+CityDoCommon.m in Sources */,
 				0718B29724737B6500A2FEF9 /* CityDoCommon.m in Sources */,
 				F538ED0A247520FA00FD3BF3 /* UIViewController+CityDoImagePicker.m in Sources */,
