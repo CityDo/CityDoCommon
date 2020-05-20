@@ -6,7 +6,7 @@
 //  Copyright © 2020 CityDo. All rights reserved.
 //
 
-#import "AFHTTPSessionManager.h"
+#import <AFNetworking/AFNetworking.h>
 
 typedef NS_ENUM(NSInteger, CDMethod) {
     CDMethodGET = 0,

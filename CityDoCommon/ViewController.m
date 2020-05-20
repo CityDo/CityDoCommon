@@ -23,9 +23,9 @@
         return resp?:err;
     };
     [[CityDoNetWork shareInstance]request:@"https://supermarket.citydo.com.cn/gateway-app/open-api-applet/order/evaluation/saveOrderEvaluation" method:CDMethodGET type:CDParamsTypeQuery parameters:@{@"name":@"fghj"} uploadProgress:nil success:^(id responseObject) {
-        
+
     } failure:^(NSError *error) {
-        
+
     }];
     // Do any additional setup after loading the view.
 }
