@@ -27,6 +27,13 @@
     } failure:^(NSError *error) {
 
     }];
+    
+    
+    UIButton *button = [UIButton cd_buttonWithFrame:CGRectMake(100, 100, 100, 100) image:nil title:@"2332" titleColor:[UIColor redColor] font:[UIFont systemFontOfSize:12]];
+    button.backgroundColor = UIColor.blueColor;
+    [button useBezierPathClipCornerWithType:CDCornerRadiusTypeTopLeftToBottomRight WithCornerRadius:10];
+    [self.view addSubview:button];
+    
     // Do any additional setup after loading the view.
 }
 

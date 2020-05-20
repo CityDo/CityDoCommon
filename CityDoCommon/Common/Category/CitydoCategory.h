@@ -14,6 +14,7 @@
 #import "UIView+CDInitialize.h"
 #import "UITextField+CityDoCommon.h"
 #import "UIButton+CDPosition.h"
+#import "UIView+CityDoCorners.h"
 
 #import "UIColor+CityDoHexColor.h"
 #import "UIColor+CityDoCommon.h"
@@ -22,5 +23,7 @@
 #import "NSMutableAttributedString+CityDoCommon.h"
 
 #import "UIImage+CityDoCommon.h"
+
+#import "NSDictionary+CityDoCommon.h"
 
 #endif /* CitydoCategory_h */

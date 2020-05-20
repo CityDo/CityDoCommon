@@ -35,6 +35,8 @@
 		0718B2A42473AF8100A2FEF9 /* UIImage+CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B2A32473AF8100A2FEF9 /* UIImage+CityDoCommon.m */; };
 		0718B2A72473C4BF00A2FEF9 /* CityDoNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B2A62473C4BF00A2FEF9 /* CityDoNetWork.m */; };
 		6E9946FB5D5E2FA8145D9FD4 /* libPods-CityDoCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DAC2959B47E10EFF3FE95A /* libPods-CityDoCommon.a */; };
+		F538ED0324751C3D00FD3BF3 /* NSDictionary+CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED0224751C3D00FD3BF3 /* NSDictionary+CityDoCommon.m */; };
+		F538ED0624751E4100FD3BF3 /* UIView+CityDoCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED0524751E4100FD3BF3 /* UIView+CityDoCorners.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +116,10 @@
 		0718B2A62473C4BF00A2FEF9 /* CityDoNetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityDoNetWork.m; sourceTree = "<group>"; };
 		76DAC2959B47E10EFF3FE95A /* libPods-CityDoCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CityDoCommon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C544006FAB4A90FE736682 /* Pods-CityDoCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityDoCommon.debug.xcconfig"; path = "Target Support Files/Pods-CityDoCommon/Pods-CityDoCommon.debug.xcconfig"; sourceTree = "<group>"; };
+		F538ED0124751C3D00FD3BF3 /* NSDictionary+CityDoCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CityDoCommon.h"; sourceTree = "<group>"; };
+		F538ED0224751C3D00FD3BF3 /* NSDictionary+CityDoCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CityDoCommon.m"; sourceTree = "<group>"; };
+		F538ED0424751E4100FD3BF3 /* UIView+CityDoCorners.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CityDoCorners.h"; sourceTree = "<group>"; };
+		F538ED0524751E4100FD3BF3 /* UIView+CityDoCorners.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CityDoCorners.m"; sourceTree = "<group>"; };
 		FF4DE97275A1C2489812EF79 /* Pods-CityDoCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityDoCommon.release.xcconfig"; path = "Target Support Files/Pods-CityDoCommon/Pods-CityDoCommon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -235,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				0718B292247376D400A2FEF9 /* CitydoCategory.h */,
+				F538ED0024751BF700FD3BF3 /* NSDictionary */,
 				0718B2A12473AEEB00A2FEF9 /* Image */,
 				0718B2802472796E00A2FEF9 /* View */,
 				0718B27924726C6500A2FEF9 /* Color */,
@@ -278,6 +285,8 @@
 				0718B2992473824200A2FEF9 /* UITextField+CityDoCommon.m */,
 				0718B29B247389D800A2FEF9 /* UIButton+CDPosition.h */,
 				0718B29C247389D800A2FEF9 /* UIButton+CDPosition.m */,
+				F538ED0424751E4100FD3BF3 /* UIView+CityDoCorners.h */,
+				F538ED0524751E4100FD3BF3 /* UIView+CityDoCorners.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -327,6 +336,15 @@
 				76DAC2959B47E10EFF3FE95A /* libPods-CityDoCommon.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F538ED0024751BF700FD3BF3 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				F538ED0124751C3D00FD3BF3 /* NSDictionary+CityDoCommon.h */,
+				F538ED0224751C3D00FD3BF3 /* NSDictionary+CityDoCommon.m */,
+			);
+			path = NSDictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -498,10 +516,12 @@
 				0718B2A02473A71200A2FEF9 /* CityDoFileTool.m in Sources */,
 				0718B26F2472215C00A2FEF9 /* CityDoCommonTool.m in Sources */,
 				0718B29A2473824200A2FEF9 /* UITextField+CityDoCommon.m in Sources */,
+				F538ED0624751E4100FD3BF3 /* UIView+CityDoCorners.m in Sources */,
 				0718B2862472802900A2FEF9 /* UIControl+CityDoCommon.m in Sources */,
 				0718B2A42473AF8100A2FEF9 /* UIImage+CityDoCommon.m in Sources */,
 				0718B26C246E927300A2FEF9 /* CityDoDateFormatTool.m in Sources */,
 				0718B29D247389D800A2FEF9 /* UIButton+CDPosition.m in Sources */,
+				F538ED0324751C3D00FD3BF3 /* NSDictionary+CityDoCommon.m in Sources */,
 				0718B28A247288A600A2FEF9 /* AFHTTPSessionManager+CityDoNetWork.m in Sources */,
 				0718B241246E869100A2FEF9 /* main.m in Sources */,
 				0718B2912473766B00A2FEF9 /* UIView+CDInitialize.m in Sources */,
