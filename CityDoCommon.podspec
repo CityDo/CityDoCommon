@@ -27,4 +27,5 @@ Pod::Spec.new do |s|
     ss.source_files = 'CityDoCommon/Common/Network/**.{h,m}'
     end
     s.dependency 'AFNetworking','~> 3.2.1'
+    s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
 end
