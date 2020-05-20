@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0718B230246E868E00A2FEF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B22F246E868E00A2FEF9 /* AppDelegate.m */; };
+		0718B233246E868E00A2FEF9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B232246E868E00A2FEF9 /* SceneDelegate.m */; };
+		0718B236246E868E00A2FEF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B235246E868E00A2FEF9 /* ViewController.m */; };
+		0718B239246E868E00A2FEF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0718B237246E868E00A2FEF9 /* Main.storyboard */; };
+		0718B23B246E869100A2FEF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0718B23A246E869100A2FEF9 /* Assets.xcassets */; };
+		0718B23E246E869100A2FEF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0718B23C246E869100A2FEF9 /* LaunchScreen.storyboard */; };
+		0718B241246E869100A2FEF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B240246E869100A2FEF9 /* main.m */; };
+		0718B24B246E869100A2FEF9 /* CityDoCommonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B24A246E869100A2FEF9 /* CityDoCommonTests.m */; };
+		0718B256246E869100A2FEF9 /* CityDoCommonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B255246E869100A2FEF9 /* CityDoCommonUITests.m */; };
+		0718B267246E8F3600A2FEF9 /* CityDoJumpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B266246E8F3600A2FEF9 /* CityDoJumpTool.m */; };
+		0718B26C246E927300A2FEF9 /* CityDoDateFormatTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B26B246E927300A2FEF9 /* CityDoDateFormatTool.m */; };
+		0718B26F2472215C00A2FEF9 /* CityDoCommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B26E2472215C00A2FEF9 /* CityDoCommonTool.m */; };
+		0718B275247231AB00A2FEF9 /* NSString+CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B274247231AB00A2FEF9 /* NSString+CityDoCommon.m */; };
+		0718B27824726AE500A2FEF9 /* NSMutableAttributedString+CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B27724726AE500A2FEF9 /* NSMutableAttributedString+CityDoCommon.m */; };
+		0718B27C24726C9F00A2FEF9 /* UIColor+CityDoHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B27B24726C9F00A2FEF9 /* UIColor+CityDoHexColor.m */; };
+		0718B27F24726DF800A2FEF9 /* UIColor+CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B27E24726DF800A2FEF9 /* UIColor+CityDoCommon.m */; };
+		0718B28324727A3100A2FEF9 /* UIView+CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B28224727A3100A2FEF9 /* UIView+CityDoCommon.m */; };
+		0718B2862472802900A2FEF9 /* UIControl+CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B2852472802900A2FEF9 /* UIControl+CityDoCommon.m */; };
+		0718B28A247288A600A2FEF9 /* AFHTTPSessionManager+CityDoNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B289247288A600A2FEF9 /* AFHTTPSessionManager+CityDoNetWork.m */; };
+		0718B28E24728DEB00A2FEF9 /* CityDoNotiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B28D24728DEB00A2FEF9 /* CityDoNotiHelper.m */; };
+		0718B2912473766B00A2FEF9 /* UIView+CDInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B2902473766B00A2FEF9 /* UIView+CDInitialize.m */; };
+		0718B29724737B6500A2FEF9 /* CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B29624737B6500A2FEF9 /* CityDoCommon.m */; };
+		0718B29A2473824200A2FEF9 /* UITextField+CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B2992473824200A2FEF9 /* UITextField+CityDoCommon.m */; };
+		0718B29D247389D800A2FEF9 /* UIButton+CDPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B29C247389D800A2FEF9 /* UIButton+CDPosition.m */; };
+		0718B2A02473A71200A2FEF9 /* CityDoFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B29F2473A71200A2FEF9 /* CityDoFileTool.m */; };
+		0718B2A42473AF8100A2FEF9 /* UIImage+CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B2A32473AF8100A2FEF9 /* UIImage+CityDoCommon.m */; };
+		0718B2A72473C4BF00A2FEF9 /* CityDoNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B2A62473C4BF00A2FEF9 /* CityDoNetWork.m */; };
+		6E9946FB5D5E2FA8145D9FD4 /* libPods-CityDoCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DAC2959B47E10EFF3FE95A /* libPods-CityDoCommon.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0718B247246E869100A2FEF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0718B223246E868E00A2FEF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0718B22A246E868E00A2FEF9;
+			remoteInfo = CityDoCommon;
+		};
+		0718B252246E869100A2FEF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0718B223246E868E00A2FEF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0718B22A246E868E00A2FEF9;
+			remoteInfo = CityDoCommon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0718B22B246E868E00A2FEF9 /* CityDoCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityDoCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0718B22E246E868E00A2FEF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0718B22F246E868E00A2FEF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0718B231246E868E00A2FEF9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0718B232246E868E00A2FEF9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0718B234246E868E00A2FEF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0718B235246E868E00A2FEF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0718B238246E868E00A2FEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0718B23A246E869100A2FEF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0718B23D246E869100A2FEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0718B23F246E869100A2FEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0718B240246E869100A2FEF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0718B246246E869100A2FEF9 /* CityDoCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityDoCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0718B24A246E869100A2FEF9 /* CityDoCommonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityDoCommonTests.m; sourceTree = "<group>"; };
+		0718B24C246E869100A2FEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0718B251246E869100A2FEF9 /* CityDoCommonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityDoCommonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0718B255246E869100A2FEF9 /* CityDoCommonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityDoCommonUITests.m; sourceTree = "<group>"; };
+		0718B257246E869100A2FEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0718B265246E8F3600A2FEF9 /* CityDoJumpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityDoJumpTool.h; sourceTree = "<group>"; };
+		0718B266246E8F3600A2FEF9 /* CityDoJumpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityDoJumpTool.m; sourceTree = "<group>"; };
+		0718B26A246E927300A2FEF9 /* CityDoDateFormatTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityDoDateFormatTool.h; sourceTree = "<group>"; };
+		0718B26B246E927300A2FEF9 /* CityDoDateFormatTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityDoDateFormatTool.m; sourceTree = "<group>"; };
+		0718B26D2472215C00A2FEF9 /* CityDoCommonTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityDoCommonTool.h; sourceTree = "<group>"; };
+		0718B26E2472215C00A2FEF9 /* CityDoCommonTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityDoCommonTool.m; sourceTree = "<group>"; };
+		0718B273247231AB00A2FEF9 /* NSString+CityDoCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CityDoCommon.h"; sourceTree = "<group>"; };
+		0718B274247231AB00A2FEF9 /* NSString+CityDoCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CityDoCommon.m"; sourceTree = "<group>"; };
+		0718B27624726AE500A2FEF9 /* NSMutableAttributedString+CityDoCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+CityDoCommon.h"; sourceTree = "<group>"; };
+		0718B27724726AE500A2FEF9 /* NSMutableAttributedString+CityDoCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+CityDoCommon.m"; sourceTree = "<group>"; };
+		0718B27A24726C9F00A2FEF9 /* UIColor+CityDoHexColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CityDoHexColor.h"; sourceTree = "<group>"; };
+		0718B27B24726C9F00A2FEF9 /* UIColor+CityDoHexColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CityDoHexColor.m"; sourceTree = "<group>"; };
+		0718B27D24726DF700A2FEF9 /* UIColor+CityDoCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CityDoCommon.h"; sourceTree = "<group>"; };
+		0718B27E24726DF800A2FEF9 /* UIColor+CityDoCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CityDoCommon.m"; sourceTree = "<group>"; };
+		0718B28124727A3100A2FEF9 /* UIView+CityDoCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CityDoCommon.h"; sourceTree = "<group>"; };
+		0718B28224727A3100A2FEF9 /* UIView+CityDoCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CityDoCommon.m"; sourceTree = "<group>"; };
+		0718B2842472802900A2FEF9 /* UIControl+CityDoCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+CityDoCommon.h"; sourceTree = "<group>"; };
+		0718B2852472802900A2FEF9 /* UIControl+CityDoCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+CityDoCommon.m"; sourceTree = "<group>"; };
+		0718B288247288A600A2FEF9 /* AFHTTPSessionManager+CityDoNetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+CityDoNetWork.h"; sourceTree = "<group>"; };
+		0718B289247288A600A2FEF9 /* AFHTTPSessionManager+CityDoNetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+CityDoNetWork.m"; sourceTree = "<group>"; };
+		0718B28C24728DEB00A2FEF9 /* CityDoNotiHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityDoNotiHelper.h; sourceTree = "<group>"; };
+		0718B28D24728DEB00A2FEF9 /* CityDoNotiHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityDoNotiHelper.m; sourceTree = "<group>"; };
+		0718B28F2473766B00A2FEF9 /* UIView+CDInitialize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CDInitialize.h"; sourceTree = "<group>"; };
+		0718B2902473766B00A2FEF9 /* UIView+CDInitialize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CDInitialize.m"; sourceTree = "<group>"; };
+		0718B292247376D400A2FEF9 /* CitydoCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CitydoCategory.h; sourceTree = "<group>"; };
+		0718B293247377D100A2FEF9 /* CityDoTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityDoTool.h; sourceTree = "<group>"; };
+		0718B2942473782800A2FEF9 /* CityDoHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityDoHelper.h; sourceTree = "<group>"; };
+		0718B29524737B6500A2FEF9 /* CityDoCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityDoCommon.h; sourceTree = "<group>"; };
+		0718B29624737B6500A2FEF9 /* CityDoCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityDoCommon.m; sourceTree = "<group>"; };
+		0718B2982473824200A2FEF9 /* UITextField+CityDoCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+CityDoCommon.h"; sourceTree = "<group>"; };
+		0718B2992473824200A2FEF9 /* UITextField+CityDoCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CityDoCommon.m"; sourceTree = "<group>"; };
+		0718B29B247389D800A2FEF9 /* UIButton+CDPosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+CDPosition.h"; sourceTree = "<group>"; };
+		0718B29C247389D800A2FEF9 /* UIButton+CDPosition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CDPosition.m"; sourceTree = "<group>"; };
+		0718B29E2473A71200A2FEF9 /* CityDoFileTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityDoFileTool.h; sourceTree = "<group>"; };
+		0718B29F2473A71200A2FEF9 /* CityDoFileTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityDoFileTool.m; sourceTree = "<group>"; };
+		0718B2A22473AF8100A2FEF9 /* UIImage+CityDoCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CityDoCommon.h"; sourceTree = "<group>"; };
+		0718B2A32473AF8100A2FEF9 /* UIImage+CityDoCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CityDoCommon.m"; sourceTree = "<group>"; };
+		0718B2A52473C4BF00A2FEF9 /* CityDoNetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityDoNetWork.h; sourceTree = "<group>"; };
+		0718B2A62473C4BF00A2FEF9 /* CityDoNetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityDoNetWork.m; sourceTree = "<group>"; };
+		76DAC2959B47E10EFF3FE95A /* libPods-CityDoCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CityDoCommon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C544006FAB4A90FE736682 /* Pods-CityDoCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityDoCommon.debug.xcconfig"; path = "Target Support Files/Pods-CityDoCommon/Pods-CityDoCommon.debug.xcconfig"; sourceTree = "<group>"; };
+		FF4DE97275A1C2489812EF79 /* Pods-CityDoCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityDoCommon.release.xcconfig"; path = "Target Support Files/Pods-CityDoCommon/Pods-CityDoCommon.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0718B228246E868E00A2FEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9946FB5D5E2FA8145D9FD4 /* libPods-CityDoCommon.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0718B243246E869100A2FEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0718B24E246E869100A2FEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0718B222246E868E00A2FEF9 = {
+			isa = PBXGroup;
+			children = (
+				0718B22D246E868E00A2FEF9 /* CityDoCommon */,
+				0718B249246E869100A2FEF9 /* CityDoCommonTests */,
+				0718B254246E869100A2FEF9 /* CityDoCommonUITests */,
+				0718B22C246E868E00A2FEF9 /* Products */,
+				2BA05C9D02290CAE9BEF79D2 /* Pods */,
+				527ADB4DE408A403643DC6DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0718B22C246E868E00A2FEF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0718B22B246E868E00A2FEF9 /* CityDoCommon.app */,
+				0718B246246E869100A2FEF9 /* CityDoCommonTests.xctest */,
+				0718B251246E869100A2FEF9 /* CityDoCommonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0718B22D246E868E00A2FEF9 /* CityDoCommon */ = {
+			isa = PBXGroup;
+			children = (
+				0718B263246E87A000A2FEF9 /* Common */,
+				0718B22E246E868E00A2FEF9 /* AppDelegate.h */,
+				0718B22F246E868E00A2FEF9 /* AppDelegate.m */,
+				0718B231246E868E00A2FEF9 /* SceneDelegate.h */,
+				0718B232246E868E00A2FEF9 /* SceneDelegate.m */,
+				0718B234246E868E00A2FEF9 /* ViewController.h */,
+				0718B235246E868E00A2FEF9 /* ViewController.m */,
+				0718B237246E868E00A2FEF9 /* Main.storyboard */,
+				0718B23A246E869100A2FEF9 /* Assets.xcassets */,
+				0718B23C246E869100A2FEF9 /* LaunchScreen.storyboard */,
+				0718B23F246E869100A2FEF9 /* Info.plist */,
+				0718B240246E869100A2FEF9 /* main.m */,
+			);
+			path = CityDoCommon;
+			sourceTree = "<group>";
+		};
+		0718B249246E869100A2FEF9 /* CityDoCommonTests */ = {
+			isa = PBXGroup;
+			children = (
+				0718B24A246E869100A2FEF9 /* CityDoCommonTests.m */,
+				0718B24C246E869100A2FEF9 /* Info.plist */,
+			);
+			path = CityDoCommonTests;
+			sourceTree = "<group>";
+		};
+		0718B254246E869100A2FEF9 /* CityDoCommonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0718B255246E869100A2FEF9 /* CityDoCommonUITests.m */,
+				0718B257246E869100A2FEF9 /* Info.plist */,
+			);
+			path = CityDoCommonUITests;
+			sourceTree = "<group>";
+		};
+		0718B263246E87A000A2FEF9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0718B29524737B6500A2FEF9 /* CityDoCommon.h */,
+				0718B29624737B6500A2FEF9 /* CityDoCommon.m */,
+				0718B28B24728DC000A2FEF9 /* Helper */,
+				0718B2872472838100A2FEF9 /* Network */,
+				0718B268246E8FCB00A2FEF9 /* Category */,
+				0718B264246E8BC000A2FEF9 /* Tool */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0718B264246E8BC000A2FEF9 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0718B293247377D100A2FEF9 /* CityDoTool.h */,
+				0718B265246E8F3600A2FEF9 /* CityDoJumpTool.h */,
+				0718B266246E8F3600A2FEF9 /* CityDoJumpTool.m */,
+				0718B26A246E927300A2FEF9 /* CityDoDateFormatTool.h */,
+				0718B26B246E927300A2FEF9 /* CityDoDateFormatTool.m */,
+				0718B26D2472215C00A2FEF9 /* CityDoCommonTool.h */,
+				0718B26E2472215C00A2FEF9 /* CityDoCommonTool.m */,
+				0718B29E2473A71200A2FEF9 /* CityDoFileTool.h */,
+				0718B29F2473A71200A2FEF9 /* CityDoFileTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		0718B268246E8FCB00A2FEF9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0718B292247376D400A2FEF9 /* CitydoCategory.h */,
+				0718B2A12473AEEB00A2FEF9 /* Image */,
+				0718B2802472796E00A2FEF9 /* View */,
+				0718B27924726C6500A2FEF9 /* Color */,
+				0718B269246E8FD600A2FEF9 /* NSString */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0718B269246E8FD600A2FEF9 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				0718B273247231AB00A2FEF9 /* NSString+CityDoCommon.h */,
+				0718B274247231AB00A2FEF9 /* NSString+CityDoCommon.m */,
+				0718B27624726AE500A2FEF9 /* NSMutableAttributedString+CityDoCommon.h */,
+				0718B27724726AE500A2FEF9 /* NSMutableAttributedString+CityDoCommon.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		0718B27924726C6500A2FEF9 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				0718B27A24726C9F00A2FEF9 /* UIColor+CityDoHexColor.h */,
+				0718B27B24726C9F00A2FEF9 /* UIColor+CityDoHexColor.m */,
+				0718B27D24726DF700A2FEF9 /* UIColor+CityDoCommon.h */,
+				0718B27E24726DF800A2FEF9 /* UIColor+CityDoCommon.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		0718B2802472796E00A2FEF9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0718B28124727A3100A2FEF9 /* UIView+CityDoCommon.h */,
+				0718B28224727A3100A2FEF9 /* UIView+CityDoCommon.m */,
+				0718B2842472802900A2FEF9 /* UIControl+CityDoCommon.h */,
+				0718B2852472802900A2FEF9 /* UIControl+CityDoCommon.m */,
+				0718B28F2473766B00A2FEF9 /* UIView+CDInitialize.h */,
+				0718B2902473766B00A2FEF9 /* UIView+CDInitialize.m */,
+				0718B2982473824200A2FEF9 /* UITextField+CityDoCommon.h */,
+				0718B2992473824200A2FEF9 /* UITextField+CityDoCommon.m */,
+				0718B29B247389D800A2FEF9 /* UIButton+CDPosition.h */,
+				0718B29C247389D800A2FEF9 /* UIButton+CDPosition.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0718B2872472838100A2FEF9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0718B288247288A600A2FEF9 /* AFHTTPSessionManager+CityDoNetWork.h */,
+				0718B289247288A600A2FEF9 /* AFHTTPSessionManager+CityDoNetWork.m */,
+				0718B2A52473C4BF00A2FEF9 /* CityDoNetWork.h */,
+				0718B2A62473C4BF00A2FEF9 /* CityDoNetWork.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0718B28B24728DC000A2FEF9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0718B2942473782800A2FEF9 /* CityDoHelper.h */,
+				0718B28C24728DEB00A2FEF9 /* CityDoNotiHelper.h */,
+				0718B28D24728DEB00A2FEF9 /* CityDoNotiHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0718B2A12473AEEB00A2FEF9 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				0718B2A22473AF8100A2FEF9 /* UIImage+CityDoCommon.h */,
+				0718B2A32473AF8100A2FEF9 /* UIImage+CityDoCommon.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		2BA05C9D02290CAE9BEF79D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2C544006FAB4A90FE736682 /* Pods-CityDoCommon.debug.xcconfig */,
+				FF4DE97275A1C2489812EF79 /* Pods-CityDoCommon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		527ADB4DE408A403643DC6DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76DAC2959B47E10EFF3FE95A /* libPods-CityDoCommon.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0718B22A246E868E00A2FEF9 /* CityDoCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0718B25A246E869100A2FEF9 /* Build configuration list for PBXNativeTarget "CityDoCommon" */;
+			buildPhases = (
+				896D54B27D22D10A8303B545 /* [CP] Check Pods Manifest.lock */,
+				0718B227246E868E00A2FEF9 /* Sources */,
+				0718B228246E868E00A2FEF9 /* Frameworks */,
+				0718B229246E868E00A2FEF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CityDoCommon;
+			productName = CityDoCommon;
+			productReference = 0718B22B246E868E00A2FEF9 /* CityDoCommon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0718B245246E869100A2FEF9 /* CityDoCommonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0718B25D246E869100A2FEF9 /* Build configuration list for PBXNativeTarget "CityDoCommonTests" */;
+			buildPhases = (
+				0718B242246E869100A2FEF9 /* Sources */,
+				0718B243246E869100A2FEF9 /* Frameworks */,
+				0718B244246E869100A2FEF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0718B248246E869100A2FEF9 /* PBXTargetDependency */,
+			);
+			name = CityDoCommonTests;
+			productName = CityDoCommonTests;
+			productReference = 0718B246246E869100A2FEF9 /* CityDoCommonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0718B250246E869100A2FEF9 /* CityDoCommonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0718B260246E869100A2FEF9 /* Build configuration list for PBXNativeTarget "CityDoCommonUITests" */;
+			buildPhases = (
+				0718B24D246E869100A2FEF9 /* Sources */,
+				0718B24E246E869100A2FEF9 /* Frameworks */,
+				0718B24F246E869100A2FEF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0718B253246E869100A2FEF9 /* PBXTargetDependency */,
+			);
+			name = CityDoCommonUITests;
+			productName = CityDoCommonUITests;
+			productReference = 0718B251246E869100A2FEF9 /* CityDoCommonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0718B223246E868E00A2FEF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = CityDo;
+				TargetAttributes = {
+					0718B22A246E868E00A2FEF9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0718B245246E869100A2FEF9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 0718B22A246E868E00A2FEF9;
+					};
+					0718B250246E869100A2FEF9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 0718B22A246E868E00A2FEF9;
+					};
+				};
+			};
+			buildConfigurationList = 0718B226246E868E00A2FEF9 /* Build configuration list for PBXProject "CityDoCommon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0718B222246E868E00A2FEF9;
+			productRefGroup = 0718B22C246E868E00A2FEF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0718B22A246E868E00A2FEF9 /* CityDoCommon */,
+				0718B245246E869100A2FEF9 /* CityDoCommonTests */,
+				0718B250246E869100A2FEF9 /* CityDoCommonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0718B229246E868E00A2FEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0718B23E246E869100A2FEF9 /* LaunchScreen.storyboard in Resources */,
+				0718B23B246E869100A2FEF9 /* Assets.xcassets in Resources */,
+				0718B239246E868E00A2FEF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0718B244246E869100A2FEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0718B24F246E869100A2FEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		896D54B27D22D10A8303B545 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CityDoCommon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0718B227246E868E00A2FEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0718B27F24726DF800A2FEF9 /* UIColor+CityDoCommon.m in Sources */,
+				0718B28324727A3100A2FEF9 /* UIView+CityDoCommon.m in Sources */,
+				0718B29724737B6500A2FEF9 /* CityDoCommon.m in Sources */,
+				0718B28E24728DEB00A2FEF9 /* CityDoNotiHelper.m in Sources */,
+				0718B236246E868E00A2FEF9 /* ViewController.m in Sources */,
+				0718B230246E868E00A2FEF9 /* AppDelegate.m in Sources */,
+				0718B2A72473C4BF00A2FEF9 /* CityDoNetWork.m in Sources */,
+				0718B275247231AB00A2FEF9 /* NSString+CityDoCommon.m in Sources */,
+				0718B27C24726C9F00A2FEF9 /* UIColor+CityDoHexColor.m in Sources */,
+				0718B27824726AE500A2FEF9 /* NSMutableAttributedString+CityDoCommon.m in Sources */,
+				0718B2A02473A71200A2FEF9 /* CityDoFileTool.m in Sources */,
+				0718B26F2472215C00A2FEF9 /* CityDoCommonTool.m in Sources */,
+				0718B29A2473824200A2FEF9 /* UITextField+CityDoCommon.m in Sources */,
+				0718B2862472802900A2FEF9 /* UIControl+CityDoCommon.m in Sources */,
+				0718B2A42473AF8100A2FEF9 /* UIImage+CityDoCommon.m in Sources */,
+				0718B26C246E927300A2FEF9 /* CityDoDateFormatTool.m in Sources */,
+				0718B29D247389D800A2FEF9 /* UIButton+CDPosition.m in Sources */,
+				0718B28A247288A600A2FEF9 /* AFHTTPSessionManager+CityDoNetWork.m in Sources */,
+				0718B241246E869100A2FEF9 /* main.m in Sources */,
+				0718B2912473766B00A2FEF9 /* UIView+CDInitialize.m in Sources */,
+				0718B233246E868E00A2FEF9 /* SceneDelegate.m in Sources */,
+				0718B267246E8F3600A2FEF9 /* CityDoJumpTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0718B242246E869100A2FEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0718B24B246E869100A2FEF9 /* CityDoCommonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0718B24D246E869100A2FEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0718B256246E869100A2FEF9 /* CityDoCommonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0718B248246E869100A2FEF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0718B22A246E868E00A2FEF9 /* CityDoCommon */;
+			targetProxy = 0718B247246E869100A2FEF9 /* PBXContainerItemProxy */;
+		};
+		0718B253246E869100A2FEF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0718B22A246E868E00A2FEF9 /* CityDoCommon */;
+			targetProxy = 0718B252246E869100A2FEF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0718B237246E868E00A2FEF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0718B238246E868E00A2FEF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0718B23C246E869100A2FEF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0718B23D246E869100A2FEF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0718B258246E869100A2FEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0718B259246E869100A2FEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0718B25B246E869100A2FEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C544006FAB4A90FE736682 /* Pods-CityDoCommon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2GM9ZBPQT;
+				INFOPLIST_FILE = CityDoCommon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.citydo.CityDoCommon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0718B25C246E869100A2FEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4DE97275A1C2489812EF79 /* Pods-CityDoCommon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2GM9ZBPQT;
+				INFOPLIST_FILE = CityDoCommon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.citydo.CityDoCommon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0718B25E246E869100A2FEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2GM9ZBPQT;
+				INFOPLIST_FILE = CityDoCommonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.citydo.CityDoCommonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityDoCommon.app/CityDoCommon";
+			};
+			name = Debug;
+		};
+		0718B25F246E869100A2FEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2GM9ZBPQT;
+				INFOPLIST_FILE = CityDoCommonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.citydo.CityDoCommonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityDoCommon.app/CityDoCommon";
+			};
+			name = Release;
+		};
+		0718B261246E869100A2FEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2GM9ZBPQT;
+				INFOPLIST_FILE = CityDoCommonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.citydo.CityDoCommonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CityDoCommon;
+			};
+			name = Debug;
+		};
+		0718B262246E869100A2FEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2GM9ZBPQT;
+				INFOPLIST_FILE = CityDoCommonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.citydo.CityDoCommonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CityDoCommon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0718B226246E868E00A2FEF9 /* Build configuration list for PBXProject "CityDoCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0718B258246E869100A2FEF9 /* Debug */,
+				0718B259246E869100A2FEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0718B25A246E869100A2FEF9 /* Build configuration list for PBXNativeTarget "CityDoCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0718B25B246E869100A2FEF9 /* Debug */,
+				0718B25C246E869100A2FEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0718B25D246E869100A2FEF9 /* Build configuration list for PBXNativeTarget "CityDoCommonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0718B25E246E869100A2FEF9 /* Debug */,
+				0718B25F246E869100A2FEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0718B260246E869100A2FEF9 /* Build configuration list for PBXNativeTarget "CityDoCommonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0718B261246E869100A2FEF9 /* Debug */,
+				0718B262246E869100A2FEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0718B223246E868E00A2FEF9 /* Project object */;
+}
