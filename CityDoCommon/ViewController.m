@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "CityDoCommon.h"
 
-#import "SMNetworkHelper.h"
+#import "NetworkHelper.h"
 
 @interface ViewController ()
 
@@ -22,7 +22,7 @@
     NSString *str = @"ABCdefjhijklmnopqrstuvwxyz";
     NSLog(@"%@==%@",str,[str cd_stringToLower]);
     
-    [SMNetworkHelper login:@{} success:^(id data) {
+    [NetworkHelper login:@{} success:^(id data) {
 
     } fail:^(BaseResponseModel *resp) {
 

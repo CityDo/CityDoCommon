@@ -28,13 +28,12 @@
 		0718B28A247288A600A2FEF9 /* AFHTTPSessionManager+CityDoNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B289247288A600A2FEF9 /* AFHTTPSessionManager+CityDoNetWork.m */; };
 		0718B28E24728DEB00A2FEF9 /* CityDoNotiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B28D24728DEB00A2FEF9 /* CityDoNotiHelper.m */; };
 		0718B2912473766B00A2FEF9 /* UIView+CDInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B2902473766B00A2FEF9 /* UIView+CDInitialize.m */; };
-		0718B29724737B6500A2FEF9 /* CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B29624737B6500A2FEF9 /* CityDoCommon.m */; };
 		0718B29A2473824200A2FEF9 /* UITextField+CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B2992473824200A2FEF9 /* UITextField+CityDoCommon.m */; };
 		0718B29D247389D800A2FEF9 /* UIButton+CDPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B29C247389D800A2FEF9 /* UIButton+CDPosition.m */; };
 		0718B2A02473A71200A2FEF9 /* CityDoFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B29F2473A71200A2FEF9 /* CityDoFileTool.m */; };
 		0718B2A42473AF8100A2FEF9 /* UIImage+CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B2A32473AF8100A2FEF9 /* UIImage+CityDoCommon.m */; };
 		0718B2A72473C4BF00A2FEF9 /* CityDoNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B2A62473C4BF00A2FEF9 /* CityDoNetWork.m */; };
-		078AC9182476301A0021CB76 /* SMNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 078AC9172476301A0021CB76 /* SMNetworkHelper.m */; };
+		078AC9182476301A0021CB76 /* NetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 078AC9172476301A0021CB76 /* NetworkHelper.m */; };
 		078AC91B24763F790021CB76 /* BaseResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 078AC91A24763F790021CB76 /* BaseResponseModel.m */; };
 		6E9946FB5D5E2FA8145D9FD4 /* libPods-CityDoCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DAC2959B47E10EFF3FE95A /* libPods-CityDoCommon.a */; };
 		F538ED0324751C3D00FD3BF3 /* NSDictionary+CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED0224751C3D00FD3BF3 /* NSDictionary+CityDoCommon.m */; };
@@ -111,7 +110,6 @@
 		0718B293247377D100A2FEF9 /* CityDoTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityDoTool.h; sourceTree = "<group>"; };
 		0718B2942473782800A2FEF9 /* CityDoHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityDoHelper.h; sourceTree = "<group>"; };
 		0718B29524737B6500A2FEF9 /* CityDoCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityDoCommon.h; sourceTree = "<group>"; };
-		0718B29624737B6500A2FEF9 /* CityDoCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityDoCommon.m; sourceTree = "<group>"; };
 		0718B2982473824200A2FEF9 /* UITextField+CityDoCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+CityDoCommon.h"; sourceTree = "<group>"; };
 		0718B2992473824200A2FEF9 /* UITextField+CityDoCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CityDoCommon.m"; sourceTree = "<group>"; };
 		0718B29B247389D800A2FEF9 /* UIButton+CDPosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+CDPosition.h"; sourceTree = "<group>"; };
@@ -122,8 +120,8 @@
 		0718B2A32473AF8100A2FEF9 /* UIImage+CityDoCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CityDoCommon.m"; sourceTree = "<group>"; };
 		0718B2A52473C4BF00A2FEF9 /* CityDoNetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityDoNetWork.h; sourceTree = "<group>"; };
 		0718B2A62473C4BF00A2FEF9 /* CityDoNetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityDoNetWork.m; sourceTree = "<group>"; };
-		078AC9162476301A0021CB76 /* SMNetworkHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMNetworkHelper.h; sourceTree = "<group>"; };
-		078AC9172476301A0021CB76 /* SMNetworkHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMNetworkHelper.m; sourceTree = "<group>"; };
+		078AC9162476301A0021CB76 /* NetworkHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkHelper.h; sourceTree = "<group>"; };
+		078AC9172476301A0021CB76 /* NetworkHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkHelper.m; sourceTree = "<group>"; };
 		078AC91924763F790021CB76 /* BaseResponseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseResponseModel.h; sourceTree = "<group>"; };
 		078AC91A24763F790021CB76 /* BaseResponseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseResponseModel.m; sourceTree = "<group>"; };
 		76DAC2959B47E10EFF3FE95A /* libPods-CityDoCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CityDoCommon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -237,7 +235,6 @@
 			isa = PBXGroup;
 			children = (
 				0718B29524737B6500A2FEF9 /* CityDoCommon.h */,
-				0718B29624737B6500A2FEF9 /* CityDoCommon.m */,
 				0718B28B24728DC000A2FEF9 /* Helper */,
 				0718B2872472838100A2FEF9 /* Network */,
 				0718B268246E8FCB00A2FEF9 /* Category */,
@@ -358,8 +355,8 @@
 		078AC91524762F910021CB76 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				078AC9162476301A0021CB76 /* SMNetworkHelper.h */,
-				078AC9172476301A0021CB76 /* SMNetworkHelper.m */,
+				078AC9162476301A0021CB76 /* NetworkHelper.h */,
+				078AC9172476301A0021CB76 /* NetworkHelper.m */,
 				078AC91924763F790021CB76 /* BaseResponseModel.h */,
 				078AC91A24763F790021CB76 /* BaseResponseModel.m */,
 			);
@@ -579,8 +576,7 @@
 				0718B27F24726DF800A2FEF9 /* UIColor+CityDoCommon.m in Sources */,
 				F538ED0D2475250200FD3BF3 /* CityDoAppTool.m in Sources */,
 				0718B28324727A3100A2FEF9 /* UIView+CityDoCommon.m in Sources */,
-				078AC9182476301A0021CB76 /* SMNetworkHelper.m in Sources */,
-				0718B29724737B6500A2FEF9 /* CityDoCommon.m in Sources */,
+				078AC9182476301A0021CB76 /* NetworkHelper.m in Sources */,
 				F538ED0A247520FA00FD3BF3 /* UIViewController+CityDoImagePicker.m in Sources */,
 				0718B28E24728DEB00A2FEF9 /* CityDoNotiHelper.m in Sources */,
 				F538ED1124752C1600FD3BF3 /* UIDevice+CityDoCommon.m in Sources */,

@@ -6,11 +6,14 @@
 //  Copyright © 2020 CityDo. All rights reserved.
 //
 
+
+
+#ifndef CityDoCommon_h
+#define CityDoCommon_h
+
 #import "CitydoCategory.h"
 #import "CityDoHelper.h"
 #import "CityDoTool.h"
 #import "CityDoNetWork.h"
 
-@interface CityDoCommon : NSObject
-
-@end
+#endif /* CityDoCommon_h */

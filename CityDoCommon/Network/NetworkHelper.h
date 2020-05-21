@@ -1,5 +1,5 @@
 //
-//  SMNetworkHelper.h
+//  NetworkHelper.h
 //  CityDoCommon
 //
 //  Created by volientDuan on 2020/5/21.
@@ -13,7 +13,7 @@
 typedef void(^SMNetworkSuccessBlock)(id data);
 typedef void(^SMNetworkFailBlock)(BaseResponseModel *resp);
 
-@interface SMNetworkHelper : NSObject;
+@interface NetworkHelper : NSObject;
 
 
 #pragma mark - 业务代码

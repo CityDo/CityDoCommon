@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'CityDoCommon'
-    s.version      = '0.0.1'
+    s.version      = '0.0.2'
     s.summary      = 'a common component'
     s.homepage     = 'https://github.com/CityDo/CityDoCommon'
     s.license      = 'MIT'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.framework = "UIKit"
     s.source       = { :git => 'https://github.com/CityDo/CityDoCommon.git', :tag => s.version }
     s.requires_arc = true
-    s.source_files = 'CityDoCommon/Common/CityDoCommon.{h,m}'
+    s.source_files = 'CityDoCommon/Common/CityDoCommon.h'
     s.subspec 'Tool' do |ss|
         ss.ios.deployment_target = '9.0'
         ss.source_files = 'CityDoCommon/Common/Tool/CityDoTool.h','CityDoCommon/Common/Tool/**/**.{h,m}'

@@ -83,7 +83,7 @@ pod 'CityDoCommon'
 
 #### 使用示例
 
-* 新创建 `SMNetworkHelper`类并引入头文件`#import "CityDoNetWork.h"`
+* 新创建 `NetworkHelper`类并引入头文件`#import "CityDoNetWork.h"`
 * 初始化代码中处理header公共入参：比如token
   
 ```

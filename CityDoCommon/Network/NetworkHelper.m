@@ -1,27 +1,27 @@
 //
-//  SMNetworkHelper.m
+//  NetworkHelper.m
 //  CityDoCommon
 //
 //  Created by volientDuan on 2020/5/21.
 //  Copyright © 2020 CityDo. All rights reserved.
 //
 
-#import "SMNetworkHelper.h"
+#import "NetworkHelper.h"
 #import "CityDoNetWork.h"
 #import "MJExtension.h"
 
-@interface SMNetworkHelper()
+@interface NetworkHelper()
 @property (nonatomic, strong)CityDoNetWork *network;
 
 @end
-@implementation SMNetworkHelper
+@implementation NetworkHelper
 
 + (instancetype)shareHelper {
     
     static dispatch_once_t onceToken;
-    static SMNetworkHelper *helper = nil;
+    static NetworkHelper *helper = nil;
     dispatch_once(&onceToken, ^{
-        helper = [[SMNetworkHelper alloc]init];
+        helper = [[NetworkHelper alloc]init];
     });
     return helper;
 }
@@ -106,7 +106,7 @@
 #pragma mark - 业务代码
 
 + (void)login:(NSDictionary *)params success:(SMNetworkSuccessBlock)success fail:(SMNetworkFailBlock)fail {
-    [[SMNetworkHelper shareHelper]POST:@"/login" parameters:params success:success fail:fail];
+    [[NetworkHelper shareHelper]POST:@"/login" parameters:params success:success fail:fail];
 }
 
 @end
