@@ -3,4 +3,5 @@ platform :ios, '9.0'
 source 'https://github.com/CocoaPods/Specs.git'
 target 'CityDoCommon' do
       pod 'AFNetworking','~> 3.2.1'
+      pod 'MJExtension'
 end

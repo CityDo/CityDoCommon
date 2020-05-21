@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "CityDoCommon.h"
 
+#import "SMNetworkHelper.h"
+
 @interface ViewController ()
 
 @end
@@ -19,15 +21,12 @@
     [super viewDidLoad];
     NSString *str = @"ABCdefjhijklmnopqrstuvwxyz";
     NSLog(@"%@==%@",str,[str cd_stringToLower]);
-    [CityDoNetWork shareInstance].responseHandler = ^id(id resp, NSError *err) {
-        return resp?:err;
-    };
-    [[CityDoNetWork shareInstance]request:@"https://supermarket.citydo.com.cn/gateway-app/open-api-applet/order/evaluation/saveOrderEvaluation" method:CDMethodGET type:CDParamsTypeQuery parameters:@{@"name":@"fghj"} uploadProgress:nil success:^(id responseObject) {
+    
+    [SMNetworkHelper login:@{} success:^(id data) {
 
-    } failure:^(NSError *error) {
+    } fail:^(BaseResponseModel *resp) {
 
     }];
-    
     
     UIButton *button = [UIButton cd_buttonWithFrame:CGRectMake(100, 100, 100, 100) image:nil title:@"2332" titleColor:[UIColor redColor] font:[UIFont systemFontOfSize:12]];
     button.backgroundColor = UIColor.blueColor;

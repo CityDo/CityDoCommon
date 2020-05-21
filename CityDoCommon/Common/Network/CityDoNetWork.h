@@ -13,10 +13,22 @@ typedef void(^CDSuccessBlock)(id JSON);
 typedef void(^CDFailureBlock)(NSError *error);
 
 @interface CityDoNetWork : NSObject
+/// 超时时间
 @property (nonatomic, assign)NSTimeInterval timeoutInterval;
+/// 网络状态
+@property (nonatomic, assign, readonly)AFNetworkReachabilityStatus networkStatus;
+
+/// 设置请求头(每次请求前会执行此回调) - 建议在初始化后统一设置
 @property (nonatomic, copy)NSDictionary * (^headerHandler)(void);
+
+/// 请求预处理(每次请求前会执行此回调) - 建议在初始化后统一设置
 @property (nonatomic, copy)void (^requestHandler)(AFHTTPSessionManager *manage);
-@property (nonatomic, copy)id (^responseHandler)(id resp, NSError *err);
+
+/// 返回结果预处理(每次请求完会执行此回调) - 建议在初始化后统一设置
+@property (nonatomic, copy)BOOL (^responseHandler)(id resp, NSError *err, CDSuccessBlock success, CDFailureBlock fail);
+
+/// 网络环境检测回调
+@property (nonatomic, copy)void (^networkStatusChangeBlock)(AFNetworkReachabilityStatus status);
 
 + (CityDoNetWork *)shareInstance;
 

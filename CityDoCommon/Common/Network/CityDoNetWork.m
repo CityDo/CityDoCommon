@@ -10,6 +10,7 @@
 
 @interface CityDoNetWork()
 @property (nonatomic, strong)AFHTTPSessionManager *manager;
+@property (nonatomic, assign)AFNetworkReachabilityStatus safeNetworkStatus;
 
 @end
 @implementation CityDoNetWork
@@ -29,7 +30,10 @@
         self.timeoutInterval = 30;
         [[AFNetworkReachabilityManager sharedManager] startMonitoring];
         [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
-            
+            self.safeNetworkStatus = status;
+            if (self.networkStatusChangeBlock) {
+                self.networkStatusChangeBlock(status);
+            }
         }];
     }
     return self;
@@ -64,21 +68,24 @@
         }
         
     } uploadProgress:uploadProgress success:^(id resp) {
+        BOOL callbacked = NO;
         if (self.responseHandler) {
-            resp = self.responseHandler(resp, nil);
+            callbacked = self.responseHandler(resp, nil, success, failure);
         }
-        if (success) {
+        if (!callbacked && success){
             success(resp);
         }
         
+        
     } failure:^(NSError *err) {
-        id error = err;
+        BOOL callbacked = NO;
         if (self.responseHandler) {
-            error = self.responseHandler(nil, error);
+            callbacked = self.responseHandler(nil, err, success, failure);
         }
-        if (failure) {
-            failure(error);
+        if (!callbacked && failure) {
+            failure(err);
         }
+        
     }];
 }
 
