@@ -28,17 +28,29 @@
 
     }];
     
-    
     UIButton *button = [UIButton cd_buttonWithFrame:CGRectMake(100, 100, 100, 100) image:nil title:@"2332" titleColor:[UIColor redColor] font:[UIFont systemFontOfSize:12]];
     button.backgroundColor = UIColor.blueColor;
-    [button useBezierPathClipCornerWithType:CDCornerRadiusTypeTopLeftToBottomRight WithCornerRadius:10];
-    [self.view addSubview:button];
-    
-    NSLog(@"%F",[CityDoAppTool calculateCacheSize]);
-    [CityDoAppTool clearAllCacheEndClearBlock:^(BOOL isSuccess) {
-        NSLog(@"%d",isSuccess);
-        NSLog(@"%f",[CityDoAppTool calculateCacheSize]);
+    [button cd_touchUpInsideEvent:^(UIControl *sender) {
+        NSLog(@"eee");
     }];
+    
+    [button cd_singleTap:^(UITapGestureRecognizer *tap) {
+        NSLog(@"ddaa");
+    }];
+    
+    NSLog(@"%@",[CityDoCommonEncryptTool cd_encryptMobile:@"19211093233"]);
+    
+//    [button useBezierPathClipCornerWithType:CDCornerRadiusTypeTopLeftToBottomRight WithCornerRadius:10];
+//    [self.view addSubview:button];
+//
+//    NSLog(@"%F",[CityDoAppTool calculateCacheSize]);
+//    [CityDoAppTool clearAllCacheEndClearBlock:^(BOOL isSuccess) {
+//        NSLog(@"%d",isSuccess);
+//        NSLog(@"%f",[CityDoAppTool calculateCacheSize]);
+//    }];
+    
+    NSLog(@"%@",[CityDoCommonEncryptTool cd_encryptString:@"1234" encryStr:@"❤" range:NSMakeRange(2, 2)]);
+    
     // Do any additional setup after loading the view.
 }
 

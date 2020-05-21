@@ -14,5 +14,7 @@
 #import "CityDoCommonTool.h"
 #import "CityDoFileTool.h"
 #import "CityDoAppTool.h"
+#import "CityDoRegularExpressionTool.h"
+#import "CityDoCommonEncryptTool.h"
 
 #endif /* CityDoTool_h */

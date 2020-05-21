@@ -41,6 +41,8 @@
 		F538ED0D2475250200FD3BF3 /* CityDoAppTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED0C2475250200FD3BF3 /* CityDoAppTool.m */; };
 		F538ED1124752C1600FD3BF3 /* UIDevice+CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED1024752C1600FD3BF3 /* UIDevice+CityDoCommon.m */; };
 		F538ED1524752E9900FD3BF3 /* UIApplication+CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED1424752E9900FD3BF3 /* UIApplication+CityDoCommon.m */; };
+		F538ED182476183D00FD3BF3 /* CityDoRegularExpressionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED172476183D00FD3BF3 /* CityDoRegularExpressionTool.m */; };
+		F538ED1B24761DE500FD3BF3 /* CityDoCommonEncryptTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED1A24761DE500FD3BF3 /* CityDoCommonEncryptTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +134,10 @@
 		F538ED1024752C1600FD3BF3 /* UIDevice+CityDoCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+CityDoCommon.m"; sourceTree = "<group>"; };
 		F538ED1324752E9900FD3BF3 /* UIApplication+CityDoCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+CityDoCommon.h"; sourceTree = "<group>"; };
 		F538ED1424752E9900FD3BF3 /* UIApplication+CityDoCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+CityDoCommon.m"; sourceTree = "<group>"; };
+		F538ED162476183D00FD3BF3 /* CityDoRegularExpressionTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityDoRegularExpressionTool.h; sourceTree = "<group>"; };
+		F538ED172476183D00FD3BF3 /* CityDoRegularExpressionTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityDoRegularExpressionTool.m; sourceTree = "<group>"; };
+		F538ED1924761DE500FD3BF3 /* CityDoCommonEncryptTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityDoCommonEncryptTool.h; sourceTree = "<group>"; };
+		F538ED1A24761DE500FD3BF3 /* CityDoCommonEncryptTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityDoCommonEncryptTool.m; sourceTree = "<group>"; };
 		FF4DE97275A1C2489812EF79 /* Pods-CityDoCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityDoCommon.release.xcconfig"; path = "Target Support Files/Pods-CityDoCommon/Pods-CityDoCommon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -247,6 +253,10 @@
 				F538ED0C2475250200FD3BF3 /* CityDoAppTool.m */,
 				0718B29E2473A71200A2FEF9 /* CityDoFileTool.h */,
 				0718B29F2473A71200A2FEF9 /* CityDoFileTool.m */,
+				F538ED162476183D00FD3BF3 /* CityDoRegularExpressionTool.h */,
+				F538ED172476183D00FD3BF3 /* CityDoRegularExpressionTool.m */,
+				F538ED1924761DE500FD3BF3 /* CityDoCommonEncryptTool.h */,
+				F538ED1A24761DE500FD3BF3 /* CityDoCommonEncryptTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -547,6 +557,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F538ED182476183D00FD3BF3 /* CityDoRegularExpressionTool.m in Sources */,
 				0718B27F24726DF800A2FEF9 /* UIColor+CityDoCommon.m in Sources */,
 				F538ED0D2475250200FD3BF3 /* CityDoAppTool.m in Sources */,
 				0718B28324727A3100A2FEF9 /* UIView+CityDoCommon.m in Sources */,
@@ -564,6 +575,7 @@
 				0718B26F2472215C00A2FEF9 /* CityDoCommonTool.m in Sources */,
 				0718B29A2473824200A2FEF9 /* UITextField+CityDoCommon.m in Sources */,
 				F538ED0624751E4100FD3BF3 /* UIView+CityDoCorners.m in Sources */,
+				F538ED1B24761DE500FD3BF3 /* CityDoCommonEncryptTool.m in Sources */,
 				0718B2862472802900A2FEF9 /* UIControl+CityDoCommon.m in Sources */,
 				0718B2A42473AF8100A2FEF9 /* UIImage+CityDoCommon.m in Sources */,
 				0718B26C246E927300A2FEF9 /* CityDoDateFormatTool.m in Sources */,
