@@ -44,6 +44,7 @@
 		F538ED1524752E9900FD3BF3 /* UIApplication+CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED1424752E9900FD3BF3 /* UIApplication+CityDoCommon.m */; };
 		F538ED182476183D00FD3BF3 /* CityDoRegularExpressionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED172476183D00FD3BF3 /* CityDoRegularExpressionTool.m */; };
 		F538ED1B24761DE500FD3BF3 /* CityDoCommonEncryptTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED1A24761DE500FD3BF3 /* CityDoCommonEncryptTool.m */; };
+		F5FE23D02477607F004D23BC /* NetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FE23CE2477607F004D23BC /* NetWorkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +143,8 @@
 		F538ED172476183D00FD3BF3 /* CityDoRegularExpressionTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityDoRegularExpressionTool.m; sourceTree = "<group>"; };
 		F538ED1924761DE500FD3BF3 /* CityDoCommonEncryptTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityDoCommonEncryptTool.h; sourceTree = "<group>"; };
 		F538ED1A24761DE500FD3BF3 /* CityDoCommonEncryptTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityDoCommonEncryptTool.m; sourceTree = "<group>"; };
+		F5FE23CE2477607F004D23BC /* NetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkManager.m; sourceTree = "<group>"; };
+		F5FE23CF2477607F004D23BC /* NetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkManager.h; sourceTree = "<group>"; };
 		FF4DE97275A1C2489812EF79 /* Pods-CityDoCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityDoCommon.release.xcconfig"; path = "Target Support Files/Pods-CityDoCommon/Pods-CityDoCommon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -355,6 +358,8 @@
 		078AC91524762F910021CB76 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				F5FE23CF2477607F004D23BC /* NetWorkManager.h */,
+				F5FE23CE2477607F004D23BC /* NetWorkManager.m */,
 				078AC9162476301A0021CB76 /* NetworkHelper.h */,
 				078AC9172476301A0021CB76 /* NetworkHelper.m */,
 				078AC91924763F790021CB76 /* BaseResponseModel.h */,
@@ -588,6 +593,7 @@
 				0718B27824726AE500A2FEF9 /* NSMutableAttributedString+CityDoCommon.m in Sources */,
 				0718B2A02473A71200A2FEF9 /* CityDoFileTool.m in Sources */,
 				078AC91B24763F790021CB76 /* BaseResponseModel.m in Sources */,
+				F5FE23D02477607F004D23BC /* NetWorkManager.m in Sources */,
 				0718B26F2472215C00A2FEF9 /* CityDoCommonTool.m in Sources */,
 				0718B29A2473824200A2FEF9 /* UITextField+CityDoCommon.m in Sources */,
 				F538ED0624751E4100FD3BF3 /* UIView+CityDoCorners.m in Sources */,

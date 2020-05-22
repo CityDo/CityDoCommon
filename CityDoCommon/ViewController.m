@@ -10,6 +10,7 @@
 #import "CityDoCommon.h"
 
 #import "NetworkHelper.h"
+#import "NetWorkManager.h"
 
 @interface ViewController ()
 
@@ -22,10 +23,16 @@
     NSString *str = @"ABCdefjhijklmnopqrstuvwxyz";
     NSLog(@"%@==%@",str,[str cd_stringToLower]);
     
-    [NetworkHelper login:@{} success:^(id data) {
-
-    } fail:^(BaseResponseModel *resp) {
-
+//    [NetworkHelper login:@{} success:^(id data) {
+//
+//    } fail:^(BaseResponseModel *resp) {
+//
+//    }];
+    
+    [[NetWorkManager sharedInstance] login:@{} success:^(id  _Nonnull data) {
+        
+    } fail:^(BaseResponseModel * _Nonnull resp) {
+        
     }];
     
     UIButton *button = [UIButton cd_buttonWithFrame:CGRectMake(100, 100, 100, 100) image:nil title:@"2332" titleColor:[UIColor redColor] font:[UIFont systemFontOfSize:12]];
