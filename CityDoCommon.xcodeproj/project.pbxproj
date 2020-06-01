@@ -35,6 +35,7 @@
 		0718B2A72473C4BF00A2FEF9 /* CityDoNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B2A62473C4BF00A2FEF9 /* CityDoNetWork.m */; };
 		078AC9182476301A0021CB76 /* NetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 078AC9172476301A0021CB76 /* NetworkHelper.m */; };
 		078AC91B24763F790021CB76 /* BaseResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 078AC91A24763F790021CB76 /* BaseResponseModel.m */; };
+		078AC99F2485020E0021CB76 /* NSError+Resp.m in Sources */ = {isa = PBXBuildFile; fileRef = 078AC99E2485020E0021CB76 /* NSError+Resp.m */; };
 		6E9946FB5D5E2FA8145D9FD4 /* libPods-CityDoCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DAC2959B47E10EFF3FE95A /* libPods-CityDoCommon.a */; };
 		F538ED0324751C3D00FD3BF3 /* NSDictionary+CityDoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED0224751C3D00FD3BF3 /* NSDictionary+CityDoCommon.m */; };
 		F538ED0624751E4100FD3BF3 /* UIView+CityDoCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = F538ED0524751E4100FD3BF3 /* UIView+CityDoCorners.m */; };
@@ -125,6 +126,8 @@
 		078AC9172476301A0021CB76 /* NetworkHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkHelper.m; sourceTree = "<group>"; };
 		078AC91924763F790021CB76 /* BaseResponseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseResponseModel.h; sourceTree = "<group>"; };
 		078AC91A24763F790021CB76 /* BaseResponseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseResponseModel.m; sourceTree = "<group>"; };
+		078AC99D2485020E0021CB76 /* NSError+Resp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Resp.h"; sourceTree = "<group>"; };
+		078AC99E2485020E0021CB76 /* NSError+Resp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Resp.m"; sourceTree = "<group>"; };
 		76DAC2959B47E10EFF3FE95A /* libPods-CityDoCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CityDoCommon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C544006FAB4A90FE736682 /* Pods-CityDoCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityDoCommon.debug.xcconfig"; path = "Target Support Files/Pods-CityDoCommon/Pods-CityDoCommon.debug.xcconfig"; sourceTree = "<group>"; };
 		F538ED0124751C3D00FD3BF3 /* NSDictionary+CityDoCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CityDoCommon.h"; sourceTree = "<group>"; };
@@ -328,6 +331,8 @@
 		0718B2872472838100A2FEF9 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				078AC99D2485020E0021CB76 /* NSError+Resp.h */,
+				078AC99E2485020E0021CB76 /* NSError+Resp.m */,
 				0718B288247288A600A2FEF9 /* AFHTTPSessionManager+CityDoNetWork.h */,
 				0718B289247288A600A2FEF9 /* AFHTTPSessionManager+CityDoNetWork.m */,
 				0718B2A52473C4BF00A2FEF9 /* CityDoNetWork.h */,
@@ -605,6 +610,7 @@
 				F538ED0324751C3D00FD3BF3 /* NSDictionary+CityDoCommon.m in Sources */,
 				0718B28A247288A600A2FEF9 /* AFHTTPSessionManager+CityDoNetWork.m in Sources */,
 				0718B241246E869100A2FEF9 /* main.m in Sources */,
+				078AC99F2485020E0021CB76 /* NSError+Resp.m in Sources */,
 				0718B2912473766B00A2FEF9 /* UIView+CDInitialize.m in Sources */,
 				F538ED1524752E9900FD3BF3 /* UIApplication+CityDoCommon.m in Sources */,
 				0718B233246E868E00A2FEF9 /* SceneDelegate.m in Sources */,

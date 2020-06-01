@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "AFHTTPSessionManager+CityDoNetWork.h"
+#import "NSError+Resp.h"
 
 typedef void(^CDSuccessBlock)(id JSON);
 typedef void(^CDFailureBlock)(NSError *error);
