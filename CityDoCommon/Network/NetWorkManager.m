@@ -52,16 +52,20 @@ DEF_SINGLETON(NetWorkManager)
         
         BaseResponseModel *model = [BaseResponseModel new];
         if (err) {
-            
-            model.code = err.code;
-            switch (model.code) {
-                case -1009:
-                    model.msg = @"无网络连接，请检查网络";
-                    break;
-                default:
-                    model.msg = @"服务器开小差了，请稍候再试";
-                    break;
+            if (err.respObject) {
+                model = [BaseResponseModel mj_objectWithKeyValues:resp];
+            } else {
+                model.code = err.code;
+                switch (model.code) {
+                    case -1009:
+                        model.msg = @"无网络连接，请检查网络";
+                        break;
+                    default:
+                        model.msg = @"服务器开小差了，请稍候再试";
+                        break;
+                }
             }
+            
             
         } else {
             
