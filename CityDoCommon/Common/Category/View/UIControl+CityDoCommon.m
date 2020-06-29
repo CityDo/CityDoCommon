@@ -76,7 +76,7 @@ static char *CDEventCallbacksKey = "CDEventCallbacksKey";
 }
 
 - (void)cd_valueChangedEvent:(CDControlEventBlock)block {
-    [self cd_valueChangedEvent:block];
+    [self cd_setEvt:UIControlEventEditingChanged callback:block];
 }
 
 - (void)cd_event:(UIControlEvents)event block:(CDControlEventBlock)block {

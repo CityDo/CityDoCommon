@@ -6,7 +6,7 @@
 * CocoaPods 导入
 
 ```
-pod 'CityDoCommon','~> 0.0.3'
+pod 'CityDoCommon','~> 0.0.4'
 ```
 
 ### 目录结构

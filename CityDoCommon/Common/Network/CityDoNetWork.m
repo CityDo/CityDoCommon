@@ -80,7 +80,7 @@
     } failure:^(NSError *err) {
         BOOL callbacked = NO;
         if (self.responseHandler) {
-            callbacked = self.responseHandler(nil, err, success, failure);
+            callbacked = self.responseHandler(err.respObject, err, success, failure);
         }
         if (!callbacked && failure) {
             failure(err);
