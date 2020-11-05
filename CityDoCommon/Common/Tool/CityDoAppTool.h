@@ -16,20 +16,14 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - 打开 App Store
 /**
  在App Store打开应用
-
- @param appId 应用id
- @return yes 能打开 no不能打开
  */
-+ (BOOL)openAppStoreWithAppId:(NSString *__nonnull)appId;
++ (void)openAppStoreWithAppId:(NSString *__nonnull)appId;
 
 
 /**
  在App Store打开应用评论页面
-
- @param appid 应用id
- @return yes 能打开 no不能打开
  */
-+ (BOOL)openAPPCommenWithAppId:(NSString *__nonnull)appid;
++ (void)openAPPCommenWithAppId:(NSString *__nonnull)appid;
 
 #pragma mark - 拨打电话
 /**

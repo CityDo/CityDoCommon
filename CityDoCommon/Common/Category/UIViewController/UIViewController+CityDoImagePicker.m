@@ -92,14 +92,10 @@ static void *isCut =  @"isCut"; //截取
                 
                 UIAlertAction * okAction = [UIAlertAction actionWithTitle:@"现在就去" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
                     //跳转到设置界面
-                    if (@available(iOS 10.0, *)) {
-                        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString] options:@{} completionHandler:^(BOOL success) {
-                            
-                        }];
-                    } else {
-                        // Fallback on earlier versions
-                        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
-                    }
+                    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString] options:@{} completionHandler:^(BOOL success) {
+                        
+                    }];
+                   
                 }];
                 
                 [noticeAlertController addAction:cancelAction];
@@ -130,14 +126,9 @@ static void *isCut =  @"isCut"; //截取
                 
                 UIAlertAction * okAction = [UIAlertAction actionWithTitle:@"现在就去" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
                     //跳转到设置界面
-                    if (@available(iOS 10.0, *)) {
-                        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString] options:@{} completionHandler:^(BOOL success) {
-                            
-                        }];
-                    } else {
-                        // Fallback on earlier versions
-                        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
-                    }
+                    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString] options:@{} completionHandler:^(BOOL success) {
+                        
+                    }];
                 }];
                 
                 [noticeAlertController addAction:cancelAction];

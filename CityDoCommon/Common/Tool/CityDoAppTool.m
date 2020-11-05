@@ -11,31 +11,37 @@
 @implementation CityDoAppTool
 
 #pragma mark - 打开App Store
-+ (BOOL)openAppStoreWithAppId:(NSString *)appId {
++ (void)openAppStoreWithAppId:(NSString *)appId {
     
     NSString *urlPath = [@"itms-apps://itunes.apple.com/cn/app/id" stringByAppendingString:appId];
-    return [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlPath]];
-    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlPath] options:@{} completionHandler:^(BOOL success) {
+        
+    }];
 }
 
-+ (BOOL)openAPPCommenWithAppId:(NSString *)appid {
++ (void)openAPPCommenWithAppId:(NSString *)appid {
     
     NSString *str = [NSString stringWithFormat:
                      @"http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=%@&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8",
                      appid];
-    return [[UIApplication sharedApplication] openURL:[NSURL URLWithString:str]];
-    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:str] options:@{} completionHandler:^(BOOL success) {
+
+    }];
 }
 
 #pragma mark - 拨打电话
 + (void)telWithPhoneNumber:(NSString *)phoneNumber {
     // 拨打电话的几种方法 请详看我的博客----iOS 拨打电话（解决openURL延迟和不同方法比较）[https://www.cnblogs.com/weicyNo-1/p/7151605.html]
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[@"tel:" stringByAppendingString: phoneNumber]]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[@"tel:" stringByAppendingString: phoneNumber]] options:@{} completionHandler:^(BOOL success) {
+            
+    }];
 }
 
 #pragma mark - 打开链接
 + (void)gotoSafariBrowserWithURL:(NSString *)urlStr {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlStr]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlStr] options:@{} completionHandler:^(BOOL success) {
+            
+    }];
 }
 
 #pragma mark - 计算缓存
