@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0718B230246E868E00A2FEF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B22F246E868E00A2FEF9 /* AppDelegate.m */; };
-		0718B233246E868E00A2FEF9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B232246E868E00A2FEF9 /* SceneDelegate.m */; };
 		0718B236246E868E00A2FEF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718B235246E868E00A2FEF9 /* ViewController.m */; };
 		0718B239246E868E00A2FEF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0718B237246E868E00A2FEF9 /* Main.storyboard */; };
 		0718B23B246E869100A2FEF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0718B23A246E869100A2FEF9 /* Assets.xcassets */; };
@@ -69,8 +68,6 @@
 		0718B22B246E868E00A2FEF9 /* CityDoCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityDoCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0718B22E246E868E00A2FEF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0718B22F246E868E00A2FEF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0718B231246E868E00A2FEF9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		0718B232246E868E00A2FEF9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		0718B234246E868E00A2FEF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0718B235246E868E00A2FEF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0718B238246E868E00A2FEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -206,8 +203,6 @@
 				0718B263246E87A000A2FEF9 /* Common */,
 				0718B22E246E868E00A2FEF9 /* AppDelegate.h */,
 				0718B22F246E868E00A2FEF9 /* AppDelegate.m */,
-				0718B231246E868E00A2FEF9 /* SceneDelegate.h */,
-				0718B232246E868E00A2FEF9 /* SceneDelegate.m */,
 				0718B234246E868E00A2FEF9 /* ViewController.h */,
 				0718B235246E868E00A2FEF9 /* ViewController.m */,
 				0718B237246E868E00A2FEF9 /* Main.storyboard */,
@@ -613,7 +608,6 @@
 				078AC99F2485020E0021CB76 /* NSError+Resp.m in Sources */,
 				0718B2912473766B00A2FEF9 /* UIView+CDInitialize.m in Sources */,
 				F538ED1524752E9900FD3BF3 /* UIApplication+CityDoCommon.m in Sources */,
-				0718B233246E868E00A2FEF9 /* SceneDelegate.m in Sources */,
 				0718B267246E8F3600A2FEF9 /* CityDoJumpTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -720,7 +714,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -773,7 +767,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -789,7 +783,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X2GM9ZBPQT;
 				INFOPLIST_FILE = CityDoCommon/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -808,7 +802,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X2GM9ZBPQT;
 				INFOPLIST_FILE = CityDoCommon/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
