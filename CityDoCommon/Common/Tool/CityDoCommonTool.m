@@ -224,7 +224,9 @@
     }
     NSURL *url = [NSURL URLWithString:strUrl];
     if([[UIApplication sharedApplication] canOpenURL:url]) {
-        [[UIApplication sharedApplication] openURL:url];
+        [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:^(BOOL success) {
+                    
+        }];
     }else{
         NSLog(@"can't open url:%@",strUrl);
     }
