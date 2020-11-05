@@ -30,10 +30,16 @@
 //    }];
     
     [[NetWorkManager sharedInstance] login:@{} success:^(id  _Nonnull data) {
-        
+        NSLog(@"%@",data);
     } fail:^(BaseResponseModel * _Nonnull resp) {
-        
+        NSLog(@"%@",resp);
     }];
+    
+    [[NetWorkManager sharedInstance] getHomeDataWithMenuType:1 success:^(id  _Nonnull data) {
+        NSLog(@"%@",data);
+        } fail:^(BaseResponseModel * _Nonnull resp) {
+            NSLog(@"%@",resp);
+        }];
     
     UIButton *button = [UIButton cd_buttonWithFrame:CGRectMake(100, 100, 100, 100) image:nil title:@"2332" titleColor:[UIColor redColor] font:[UIFont systemFontOfSize:12]];
     button.backgroundColor = UIColor.blueColor;

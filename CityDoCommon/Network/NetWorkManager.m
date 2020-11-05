@@ -124,4 +124,8 @@ DEF_SINGLETON(NetWorkManager)
     [self POST:@"/login" params:params success:success failuer:fail];
 }
 
+- (void)getHomeDataWithMenuType:(NSInteger)type success:(NetWorkManagerSuccessBlock)success fail:(NetWorkManagerFailBlock)fail {
+    [self GET:@"/client/api/homepage/query" params:@{@"menu":@(type)} success:success failuer:fail];
+}
+
 @end

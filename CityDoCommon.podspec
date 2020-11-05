@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
     ss.ios.deployment_target = '9.0'
     ss.source_files = 'CityDoCommon/Common/Network/**.{h,m}'
     end
-    s.dependency 'AFNetworking','~> 3.2.1'
+    s.dependency 'AFNetworking','~> 3.2.1', :subspecs => ['Reachability', 'Serialization', 'Security', 'NSURLSession']
     s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
 end

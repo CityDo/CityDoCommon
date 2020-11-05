@@ -1,10 +1,4 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
   - AFNetworking/NSURLSession (3.2.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
@@ -12,16 +6,17 @@ PODS:
   - AFNetworking/Reachability (3.2.1)
   - AFNetworking/Security (3.2.1)
   - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
-    - AFNetworking/NSURLSession
   - MJExtension (3.2.1)
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.2.1)
+  - AFNetworking/NSURLSession (~> 3.2.1)
+  - AFNetworking/Reachability (~> 3.2.1)
+  - AFNetworking/Security (~> 3.2.1)
+  - AFNetworking/Serialization (~> 3.2.1)
   - MJExtension
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - AFNetworking
     - MJExtension
 
@@ -29,6 +24,6 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
 
-PODFILE CHECKSUM: 88a373978db47abea65baaa0a9ae0856d05e46dc
+PODFILE CHECKSUM: 7d2015b4a51d86be588b0267eea885c2c5a308d2
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3

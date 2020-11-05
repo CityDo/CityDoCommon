@@ -39,7 +39,7 @@
 }
 
 
-#define CDBaseURL @"https://api.smb.com/"
+#define CDBaseURL @"http://139.196.38.21:9000" // 测试
 
 typedef void(^NetWorkManagerSuccessBlock)(id _Nonnull data);
 typedef void(^NetWorkManagerFailBlock)(BaseResponseModel * _Nonnull resp);
@@ -53,6 +53,7 @@ AS_SINGLETON(NetWorkManager)
 #pragma mark - 业务代码
 - (void)login:(NSDictionary *)params success:(NetWorkManagerSuccessBlock)success fail:(NetWorkManagerFailBlock)fail;
 
+- (void)getHomeDataWithMenuType:(NSInteger)type success:(NetWorkManagerSuccessBlock)success fail:(NetWorkManagerFailBlock)fail;
 
 @end
 
